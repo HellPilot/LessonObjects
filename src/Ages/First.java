@@ -6,9 +6,9 @@ public class First {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         Person firstperson = new Person();
-        System.out.println("Ведите имя первого мужика:");
+        System.out.println("Введите имя первого мужика:");
         firstperson.name = scan.nextLine();
-        System.out.println("Ведите взраст первого мужика:");
+        System.out.println("Введите взраст первого мужика:");
         firstperson.age = scan.nextInt();
 
         Scanner scan2 = new Scanner(System.in);
